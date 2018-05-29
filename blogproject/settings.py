@@ -25,7 +25,7 @@ SECRET_KEY = '*1cy=ore8xmgp28qbsadl+_7#@=8^l150ul=jtox7*sjw(&-&3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost ', '.waleli.top']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost ', '.waleli.top','39.105.50.193']
 
 
 # Application definition
@@ -37,9 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-	'blog', #register application-blog
-	'comments',#register application-comments
-	'haystack',
+    'blog', #register application-blog
+    'comments',#register application-comments
+    'haystack',
 ]
 
 #指定搜索引擎为'blog.whoosh_cn_backend.WhooshEngine',
@@ -138,4 +138,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 # 加入下面的配置
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+#STATIC_ROOT = os.path.join(BASE_DIR, 'static')
